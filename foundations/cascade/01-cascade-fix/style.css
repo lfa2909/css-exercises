@@ -8,16 +8,27 @@ body {
   font-weight: 800;
 }
 
+.para {
+  font-size: 22px;
+}
+
+
+/*
+Swapped below with above
+Also could modify below to para.small-para
+*/
 .small-para {
   font-size: 14px;
   font-weight: 800;
 }
 
-.para {
-  font-size: 22px;
-}
 
-.confirm {
+/*
+Added button. below so it has more selectors
+and therefore takes precedence.
+Could also use id as selector
+*/
+.button.confirm {
   background: green;
   color: white;
   font-weight: bold;
@@ -29,7 +40,12 @@ body {
   font-size: 20px;
 }
 
-.child {
+
+/*
+Added .text ancestor to below so it
+takes precendece.
+*/
+.text .child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
